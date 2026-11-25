@@ -1,0 +1,7 @@
+n = int(input())
+a = list(map(int, input().split()))[:n]
+even_pos_elements = a[1::2]
+if not even_pos_elements:
+    print("Елементів з парними номерами немає")
+else:
+    print(min(even_pos_elements))
