@@ -1,0 +1,6 @@
+from random import* N = 10
+A = [randint(0,10) for i in range(N+1)] print A
+f = True
+for i in range(0,N-1): if A[i] < A[N-1]:
+print(i,A[i]) f = False break
+if f: print(0)
