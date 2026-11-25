@@ -1,0 +1,6 @@
+from random import *
+M, N = map (int, raw_input().split())
+a = [[randint(0,100) for j in range(M)] for i in range(N)] for i in range (len(a)):
+print a[i]
+print '	' for i in range(M):
+print min (a[i]),
