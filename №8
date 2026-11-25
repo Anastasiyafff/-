@@ -1,0 +1,4 @@
+m, n = map(int, input().split())
+matrix = [[10 * (i + 1)] * n for i in range(m)]
+for row in matrix:
+    print(*row)
